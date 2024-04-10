@@ -1,4 +1,5 @@
 import { useLoaderData } from "react-router-dom";
+import palaceHolderImage from "../assets/404.jpg";
 
 const BlogDetail = () => {
   const blogDetail = useLoaderData();
@@ -31,6 +32,11 @@ const BlogDetail = () => {
             </div>
           </div>
           <div className="text-gray-900">
+            <img
+              role="presentation"
+              className="object-cover w-full rounded h-44 bg-gray-500 dark:bg-gray-500"
+              src={cover_image || palaceHolderImage}
+            />
             <p>Insert the actual text content here...</p>
           </div>
         </article>
