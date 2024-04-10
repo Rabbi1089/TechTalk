@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 911" preserveAspectRatio="xMidYMid" width="1920" height="911" style="shape-rendering: auto; display: block; background: rgb(11, 19, 29);"><g style="transform: matrix(-1, 0, 0, -1, 1920, 911);" data-idx="1"><style type="text/css" data-idx="2">
+  @keyframes ld-speed-dash {
+    0% { transform: translate(0,-2326.76px); }
+    100% { transform: translate(0,2326.76px); }
+  }
+  .ld.ld-speed-dash {
+    animation: ld-speed-dash 3.0303030303030303s linear infinite;
+  }
+</style>
+<defs data-idx="3">
+  <filter id="ldbf1" filterUnits="userSpaceOnUse" x="0" y="-288" width="31" height="288" data-idx="4">
+    <feGaussianBlur stdDeviation="3" result="blur1" data-idx="5"></feGaussianBlur>
+    <feMorphology operator="dilate" radius="0.75" in="SourceGraphic" result="dilate" data-idx="6"></feMorphology>
+    <feComponentTransfer in="dilate" result="dark" data-idx="7">
+    <feFuncR type="linear" slope="0.33" data-idx="8"></feFuncR>
+    <feFuncG type="linear" slope="0.33" data-idx="9"></feFuncG>
+    <feFuncB type="linear" slope="0.33" data-idx="10"></feFuncB>
+    </feComponentTransfer>
+    <feGaussianBlur stdDeviation="1.50" in="dark" result="blur2" data-idx="11"></feGaussianBlur>
+    <feMerge data-idx="12">
+      <feMergeNode in="blur1" data-idx="13"></feMergeNode>
+      <feMergeNode in="blur2" data-idx="14"></feMergeNode>
+      <feMergeNode in="SourceGraphic" data-idx="15"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<g transform="matrix(1,0,0,1,960,455.5)" data-idx="16">
+  <g style="transform: matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0);" data-idx="17">
+    <g transform="matrix(1,0,0,1,804.22998046875,0)" data-idx="18">
+<line x1="15" x2="15" y1="-28.80" y2="-152.50" stroke="#acecff" stroke-width="3.39" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.9623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1001.21);" data-idx="19"></line>
+</g><g transform="matrix(1,0,0,1,525.5999755859375,0)" data-idx="20">
+<line x1="15" x2="15" y1="-28.80" y2="-197.52" stroke="#ff6d6d" stroke-width="2.19" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.7623s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1123.52);" data-idx="21"></line>
+</g><g transform="matrix(1,0,0,1,570.1599731445312,0)" data-idx="22">
+<line x1="15" x2="15" y1="-28.80" y2="-79.96" stroke="#ff6d6d" stroke-width="4.22" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.1123s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -987.065);" data-idx="23"></line>
+</g><g transform="matrix(1,0,0,1,13.520000457763672,0)" data-idx="24">
+<line x1="15" x2="15" y1="-28.80" y2="-188.79" stroke="#b5ffb7" stroke-width="0.76" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.2123s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 2245.22);" data-idx="25"></line>
+</g><g transform="matrix(1,0,0,1,123.55999755859375,0)" data-idx="26">
+<line x1="15" x2="15" y1="-28.80" y2="-138.44" stroke="#ff6d6d" stroke-width="2.55" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.5923s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1332.02);" data-idx="27"></line>
+</g><g transform="matrix(1,0,0,1,-709.7999877929688,0)" data-idx="28">
+<line x1="15" x2="15" y1="-28.80" y2="-196.17" stroke="#b5ffb7" stroke-width="2.76" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.9323s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1854.19);" data-idx="29"></line>
+</g><g transform="matrix(1,0,0,1,789.510009765625,0)" data-idx="30">
+<line x1="15" x2="15" y1="-28.80" y2="-69.98" stroke="#ff6d6d" stroke-width="1.55" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.1723s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -178.994);" data-idx="31"></line>
+</g><g transform="matrix(1,0,0,1,-65.3499984741211,0)" data-idx="32">
+<line x1="15" x2="15" y1="-28.80" y2="-176.02" stroke="#b5ffb7" stroke-width="3.37" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.7723s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1249.31);" data-idx="33"></line>
+</g><g transform="matrix(1,0,0,1,-656.760009765625,0)" data-idx="34">
+<line x1="15" x2="15" y1="-28.80" y2="-79.06" stroke="#acecff" stroke-width="0.49" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.0623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1508.03);" data-idx="35"></line>
+</g><g transform="matrix(1,0,0,1,-516.5399780273438,0)" data-idx="36">
+<line x1="15" x2="15" y1="-28.80" y2="-174.17" stroke="#b5ffb7" stroke-width="3.57" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.5623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -795.696);" data-idx="37"></line>
+</g><g transform="matrix(1,0,0,1,-820.8099975585938,0)" data-idx="38">
+<line x1="15" x2="15" y1="-28.80" y2="-165.01" stroke="#ff6d6d" stroke-width="0.85" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.7923s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 171.868);" data-idx="39"></line>
+</g><g transform="matrix(1,0,0,1,24.920000076293945,0)" data-idx="40">
+<line x1="15" x2="15" y1="-28.80" y2="-185.07" stroke="#b5ffb7" stroke-width="4.31" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.8623s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1746.69);" data-idx="41"></line>
+</g><g transform="matrix(1,0,0,1,-493.94000244140625,0)" data-idx="42">
+<line x1="15" x2="15" y1="-28.80" y2="-144.29" stroke="#ff6d6d" stroke-width="1.81" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.8723s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 586.538);" data-idx="43"></line>
+</g><g transform="matrix(1,0,0,1,320.010009765625,0)" data-idx="44">
+<line x1="15" x2="15" y1="-28.80" y2="-58.60" stroke="#ff6d6d" stroke-width="0.78" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.3323s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 235.676);" data-idx="45"></line>
+</g><g transform="matrix(1,0,0,1,937.760009765625,0)" data-idx="46">
+<line x1="15" x2="15" y1="-28.80" y2="-172.78" stroke="#ff6d6d" stroke-width="3.33" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.5023s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1722.49);" data-idx="47"></line>
+</g><g transform="matrix(1,0,0,1,-575.8699951171875,0)" data-idx="48">
+<line x1="15" x2="15" y1="-28.80" y2="-159.59" stroke="#acecff" stroke-width="4.95" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.3723s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -2123.57);" data-idx="49"></line>
+</g><g transform="matrix(1,0,0,1,-957.6099853515625,0)" data-idx="50">
+<line x1="15" x2="15" y1="-28.80" y2="-156.66" stroke="#acecff" stroke-width="2.62" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.1823s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 2238.15);" data-idx="51"></line>
+</g><g transform="matrix(1,0,0,1,-622.6199951171875,0)" data-idx="52">
+<line x1="15" x2="15" y1="-28.80" y2="-178.58" stroke="#b5ffb7" stroke-width="4.42" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.5123s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 604.272);" data-idx="53"></line>
+</g><g transform="matrix(1,0,0,1,-895.760009765625,0)" data-idx="54">
+<line x1="15" x2="15" y1="-28.80" y2="-85.20" stroke="#ff6d6d" stroke-width="3.36" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.0123s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -547.59);" data-idx="55"></line>
+</g><g transform="matrix(1,0,0,1,-318.9100036621094,0)" data-idx="56">
+<line x1="15" x2="15" y1="-28.80" y2="-89.67" stroke="#b5ffb7" stroke-width="4.61" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.9923s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1756.13);" data-idx="57"></line>
+</g><g transform="matrix(1,0,0,1,-675.02001953125,0)" data-idx="58">
+<line x1="15" x2="15" y1="-28.80" y2="-101.14" stroke="#ff6d6d" stroke-width="3.76" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.5723s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1301.3);" data-idx="59"></line>
+</g><g transform="matrix(1,0,0,1,143.17999267578125,0)" data-idx="60">
+<line x1="15" x2="15" y1="-28.80" y2="-170.34" stroke="#b5ffb7" stroke-width="1.96" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.0923s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1017.78);" data-idx="61"></line>
+</g><g transform="matrix(1,0,0,1,-421.5799865722656,0)" data-idx="62">
+<line x1="15" x2="15" y1="-28.80" y2="-139.13" stroke="#ff6d6d" stroke-width="1.81" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.7323s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1157.17);" data-idx="63"></line>
+</g><g transform="matrix(1,0,0,1,315.489990234375,0)" data-idx="64">
+<line x1="15" x2="15" y1="-28.80" y2="-192.23" stroke="#ff6d6d" stroke-width="1.63" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.1823s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 2060.92);" data-idx="65"></line>
+</g><g transform="matrix(1,0,0,1,-384.6499938964844,0)" data-idx="66">
+<line x1="15" x2="15" y1="-28.80" y2="-65.02" stroke="#b5ffb7" stroke-width="3.07" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.1223s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -971.707);" data-idx="67"></line>
+</g><g transform="matrix(1,0,0,1,-354.5799865722656,0)" data-idx="68">
+<line x1="15" x2="15" y1="-28.80" y2="-89.18" stroke="#b5ffb7" stroke-width="4.17" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.5523s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 742.495);" data-idx="69"></line>
+</g><g transform="matrix(1,0,0,1,-115.98999786376953,0)" data-idx="70">
+<line x1="15" x2="15" y1="-28.80" y2="-178.27" stroke="#ff6d6d" stroke-width="1.88" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.7423s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1562.39);" data-idx="71"></line>
+</g><g transform="matrix(1,0,0,1,-63.40999984741211,0)" data-idx="72">
+<line x1="15" x2="15" y1="-28.80" y2="-176.16" stroke="#acecff" stroke-width="0.23" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.4223s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 443.011);" data-idx="73"></line>
+</g><g transform="matrix(1,0,0,1,444.3399963378906,0)" data-idx="74">
+<line x1="15" x2="15" y1="-28.80" y2="-95.05" stroke="#b5ffb7" stroke-width="1.27" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.8423s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 494.389);" data-idx="75"></line>
+</g><g transform="matrix(1,0,0,1,117.1500015258789,0)" data-idx="76">
+<line x1="15" x2="15" y1="-28.80" y2="-85.17" stroke="#b5ffb7" stroke-width="4.20" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.2123s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 2284.22);" data-idx="77"></line>
+</g><g transform="matrix(1,0,0,1,46.060001373291016,0)" data-idx="78">
+<line x1="15" x2="15" y1="-28.80" y2="-172.33" stroke="#acecff" stroke-width="4.89" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.2723s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -2277.15);" data-idx="79"></line>
+</g><g transform="matrix(1,0,0,1,671.4000244140625,0)" data-idx="80">
+<line x1="15" x2="15" y1="-28.80" y2="-91.41" stroke="#ff6d6d" stroke-width="3.21" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.2623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -2270.08);" data-idx="81"></line>
+</g><g transform="matrix(1,0,0,1,-49.560001373291016,0)" data-idx="82">
+<line x1="15" x2="15" y1="-28.80" y2="-179.97" stroke="#acecff" stroke-width="4.64" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.4623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1348.59);" data-idx="83"></line>
+</g><g transform="matrix(1,0,0,1,302.489990234375,0)" data-idx="84">
+<line x1="15" x2="15" y1="-28.80" y2="-186.57" stroke="#ff6d6d" stroke-width="2.07" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.5023s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1722.49);" data-idx="85"></line>
+</g><g transform="matrix(1,0,0,1,-45.45000076293945,0)" data-idx="86">
+<line x1="15" x2="15" y1="-28.80" y2="-176.53" stroke="#ff6d6d" stroke-width="1.91" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.3023s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 886.63);" data-idx="87"></line>
+</g><g transform="matrix(1,0,0,1,835.0599975585938,0)" data-idx="88">
+<line x1="15" x2="15" y1="-28.80" y2="-169.58" stroke="#ff6d6d" stroke-width="4.73" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.8723s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1355.66);" data-idx="89"></line>
+</g><g transform="matrix(1,0,0,1,-21.899999618530273,0)" data-idx="90">
+<line x1="15" x2="15" y1="-28.80" y2="-70.47" stroke="#ff6d6d" stroke-width="4.17" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.5023s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 581.234);" data-idx="91"></line>
+</g><g transform="matrix(1,0,0,1,384.79998779296875,0)" data-idx="92">
+<line x1="15" x2="15" y1="-28.80" y2="-97.64" stroke="#b5ffb7" stroke-width="2.21" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.0523s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 2038.49);" data-idx="93"></line>
+</g><g transform="matrix(1,0,0,1,-605.3800048828125,0)" data-idx="94">
+<line x1="15" x2="15" y1="-28.80" y2="-182.99" stroke="#ff6d6d" stroke-width="1.31" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.9023s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -800.999);" data-idx="95"></line>
+</g><g transform="matrix(1,0,0,1,52.130001068115234,0)" data-idx="96">
+<line x1="15" x2="15" y1="-28.80" y2="-153.16" stroke="#b5ffb7" stroke-width="1.13" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.9623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1047.28);" data-idx="97"></line>
+</g><g transform="matrix(1,0,0,1,-660.530029296875,0)" data-idx="98">
+<line x1="15" x2="15" y1="-28.80" y2="-198.84" stroke="#b5ffb7" stroke-width="3.82" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -25.7923s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1249.31);" data-idx="99"></line>
+</g><g transform="matrix(1,0,0,1,-336.9200134277344,0)" data-idx="100">
+<line x1="15" x2="15" y1="-28.80" y2="-123.69" stroke="#acecff" stroke-width="4.03" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.9723s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -639.739);" data-idx="101"></line>
+</g><g transform="matrix(1,0,0,1,230.13999938964844,0)" data-idx="102">
+<line x1="15" x2="15" y1="-28.80" y2="-154.28" stroke="#acecff" stroke-width="2.53" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.4723s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1210.37);" data-idx="103"></line>
+</g><g transform="matrix(1,0,0,1,725.9099731445312,0)" data-idx="104">
+<line x1="15" x2="15" y1="-28.80" y2="-94.60" stroke="#b5ffb7" stroke-width="0.09" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.0623s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1554.1);" data-idx="105"></line>
+</g><g transform="matrix(1,0,0,1,-555.72998046875,0)" data-idx="106">
+<line x1="15" x2="15" y1="-28.80" y2="-90.07" stroke="#acecff" stroke-width="3.23" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.6623s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1439.52);" data-idx="107"></line>
+</g><g transform="matrix(1,0,0,1,532.47998046875,0)" data-idx="108">
+<line x1="15" x2="15" y1="-28.80" y2="-118.72" stroke="#b5ffb7" stroke-width="0.38" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.5923s; animation-duration: 1.01s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -703.547);" data-idx="109"></line>
+</g><g transform="matrix(1,0,0,1,-390.7699890136719,0)" data-idx="110">
+<line x1="15" x2="15" y1="-28.80" y2="-141.14" stroke="#ff6d6d" stroke-width="1.30" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.4923s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1939.27);" data-idx="111"></line>
+</g><g transform="matrix(1,0,0,1,-591.9199829101562,0)" data-idx="112">
+<line x1="15" x2="15" y1="-28.80" y2="-92.31" stroke="#ff6d6d" stroke-width="3.05" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -24.4123s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, -1929.82);" data-idx="113"></line>
+</g><g transform="matrix(1,0,0,1,-404.2300109863281,0)" data-idx="114">
+<line x1="15" x2="15" y1="-28.80" y2="-70.15" stroke="#acecff" stroke-width="2.60" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.8723s; animation-duration: 2.02s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1479.69);" data-idx="115"></line>
+</g><g transform="matrix(1,0,0,1,438.8500061035156,0)" data-idx="116">
+<line x1="15" x2="15" y1="-28.80" y2="-116.21" stroke="#ff6d6d" stroke-width="0.59" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -23.5223s; animation-duration: 3.03s; animation-play-state: paused; transform: matrix(1, 0, 0, 1, 0, 1224.51);" data-idx="117"></line>
+</g>
+  </g>
+</g>
+<g data-idx="118"></g></g><text data-watermark="true" text-anchor="middle" dominant-baseline="middle" stroke-opacity="0.1" fill="black" fill-opacity="0.1" stroke="white" stroke-width="1" font-size="15.0" x="960.0" y="455.5" data-idx="119" style="opacity: 1; font-size: 15px;">LOADING.IO</text></svg>
