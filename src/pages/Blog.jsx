@@ -1,10 +1,13 @@
 import { useLoaderData } from "react-router-dom";
 import BlogCart from "../Components/BlogCart";
+import { useNavigation } from "react-router-dom";
+import Loader from "../Components/Loader";
 
 const Blog = () => {
   const blogs = useLoaderData();
+  const navigation = useNavigation();
   //console.log(blogs);
-
+  if (navigation.state === "loading") return <Loader></Loader>;
   return (
     <div className="h-auto">
       <section className="bg-gray-100 text-gray-100 ">
