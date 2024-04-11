@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
+import palaceHolderImage from "../assets/404.jpg";
 const Content = () => {
   const blogs = useLoaderData();
   console.log(blogs);

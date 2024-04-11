@@ -1,9 +1,35 @@
-
+import { useEffect, useState } from "react";
+import { DeleteBlogs, getBlogs } from "../utlit";
+import BlogCart from "../Components/BlogCart";
 
 const Bookmarks = () => {
+  const [blogs, setBlogs] = useState();
+  //console.log(blogs);
+  useEffect(() => {
+    const stroedBlogs = getBlogs();
+    setBlogs(stroedBlogs);
+  }, []);
+
+  const handleDelete = (id) => {
+    DeleteBlogs(id);
+    const stroedBlogs = getBlogs();
+    setBlogs(stroedBlogs);
+  };
+  if (blogs.length < 1) return <h1>kicu nai</h1>;
   return (
     <div>
-      <h1 className=" text-red-600 font-bold text-3xl">I am from Bookmark</h1>
+      <div className="grid justify-center grid-cols-1 gap-6 sm:gap-3 lg:gap-3 md:grid-cols-3  lg:grid-cols-4 mt-10 text-white h-auto mx-5">
+        {blogs &&
+          blogs.map((blogs) => (
+            <BlogCart
+              handleDelete={handleDelete}
+              deletable={true}
+              key={blogs.id}
+              blogs={blogs}
+            ></BlogCart>
+          ))}
+        ;
+      </div>
     </div>
   );
 };

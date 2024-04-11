@@ -1,22 +1,24 @@
 import { Link, useLoaderData, Outlet } from "react-router-dom";
-import palaceHolderImage from "../assets/404.jpg";
 import { useState } from "react";
+import { MdBookmarkAdd } from "react-icons/md";
+import { saveBlog } from "../utlit";
 
 const BlogDetail = () => {
   const [tabIndex, setTabIndex] = useState(0);
-  console.log(tabIndex);
+  //console.log(tabIndex);
   const blogDetail = useLoaderData();
   const {
-    cover_image,
     title,
-    description,
     published_timestamp,
-    id,
     reading_time_minutes,
     comments_count,
     public_reactions_count,
-    tags,
   } = blogDetail;
+
+  const handleBookmark = (blogDetail) => {
+    //console.log(blogDetail);
+    saveBlog(blogDetail);
+  };
   return (
     <div>
       <div className="max-w-3xl px-6 py-16 mx-auto space-y-12">
@@ -89,6 +91,12 @@ const BlogDetail = () => {
                 </svg>
                 <span>Author</span>
               </Link>
+              <div
+                onClick={() => handleBookmark(blogDetail)}
+                className=" bg-pink-500 px-2 py-2 ml-4 opacity-40 rounded-md hover:scale-110 hover:opacity-80 shadow-sm cursor-pointer overflow-hidden"
+              >
+                <MdBookmarkAdd size={30} className="text-primary" />
+              </div>
             </div>
           </div>
           <Outlet />
