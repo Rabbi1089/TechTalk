@@ -14,3 +14,5 @@
 - Daisy UI
 - TailwindCSS
 - Mamba UI
+
+- live at : <https://tech-talk-react.netlify.app/>
